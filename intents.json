@@ -1,0 +1,508 @@
+{
+  "intents": [
+    {
+      "tag": "distance_playground_to_parking",
+      "patterns": [
+        "What is the distance from Play Ground to Parking?",
+        "How far is Parking from the Play Ground?",
+        "Distance between Play Ground and Parking"
+      ],
+      "responses": [
+        "The distance from Play Ground to Parking is approximately 108.09 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_ntu_admission_office",
+      "patterns": [
+        "What is the distance from Play Ground to NTU Admission office?",
+        "How far is NTU Admission office from the Play Ground?",
+        "Distance between Play Ground and NTU Admission office"
+      ],
+      "responses": [
+        "The distance from Play Ground to NTU Admission office is approximately 34.2 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_library",
+      "patterns": [
+        "What is the distance from Play Ground to library?",
+        "How far is library from the Play Ground?",
+        "Distance between Play Ground and library"
+      ],
+      "responses": [
+        "The distance from Play Ground to library is approximately 66.94 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_department_of_textile_technology",
+      "patterns": [
+        "What is the distance from Play Ground to Department of textile Technology?",
+        "How far is Department of textile Technology from the Play Ground?",
+        "Distance between Play Ground and Department of textile Technology"
+      ],
+      "responses": [
+        "The distance from Play Ground to Department of textile Technology is approximately 63.6 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_university_auditorium",
+      "patterns": [
+        "What is the distance from Play Ground to University Auditorium?",
+        "How far is University Auditorium from the Play Ground?",
+        "Distance between Play Ground and University Auditorium"
+      ],
+      "responses": [
+        "The distance from Play Ground to University Auditorium is approximately 71.04 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_rector_office",
+      "patterns": [
+        "What is the distance from Play Ground to Rector office?",
+        "How far is Rector office from the Play Ground?",
+        "Distance between Play Ground and Rector office"
+      ],
+      "responses": [
+        "The distance from Play Ground to Rector office is approximately 95.07 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_ceca",
+      "patterns": [
+        "What is the distance from Play Ground to CECA?",
+        "How far is CECA from the Play Ground?",
+        "Distance between Play Ground and CECA"
+      ],
+      "responses": [
+        "The distance from Play Ground to CECA is approximately 84.86 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_weaving_lab",
+      "patterns": [
+        "What is the distance from Play Ground to Weaving Lab?",
+        "How far is Weaving Lab from the Play Ground?",
+        "Distance between Play Ground and Weaving Lab"
+      ],
+      "responses": [
+        "The distance from Play Ground to Weaving Lab is approximately 108.07 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_weaving_department",
+      "patterns": [
+        "What is the distance from Play Ground to Weaving Department?",
+        "How far is Weaving Department from the Play Ground?",
+        "Distance between Play Ground and Weaving Department"
+      ],
+      "responses": [
+        "The distance from Play Ground to Weaving Department is approximately 89.45 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_garments",
+      "patterns": [
+        "What is the distance from Play Ground to Garments?",
+        "How far is Garments from the Play Ground?",
+        "Distance between Play Ground and Garments"
+      ],
+      "responses": [
+        "The distance from Play Ground to Garments is approximately 107.24 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_mechanical_lab",
+      "patterns": [
+        "What is the distance from Play Ground to Mechanical lab?",
+        "How far is Mechanical lab from the Play Ground?",
+        "Distance between Play Ground and Mechanical lab"
+      ],
+      "responses": [
+        "The distance from Play Ground to Mechanical lab is approximately 112.1 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_knitting_department",
+      "patterns": [
+        "What is the distance from Play Ground to Knitting Department?",
+        "How far is Knitting Department from the Play Ground?",
+        "Distance between Play Ground and Knitting Department"
+      ],
+      "responses": [
+        "The distance from Play Ground to Knitting Department is approximately 128.78 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_polymer_engineers",
+      "patterns": [
+        "What is the distance from Play Ground to Polymer Engineers?",
+        "How far is Polymer Engineers from the Play Ground?",
+        "Distance between Play Ground and Polymer Engineers"
+      ],
+      "responses": [
+        "The distance from Play Ground to Polymer Engineers is approximately 148.99 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_school_of_engineering_and_technology",
+      "patterns": [
+        "What is the distance from Play Ground to School of Engineering and Technology?",
+        "How far is School of Engineering and Technology from the Play Ground?",
+        "Distance between Play Ground and School of Engineering and Technology"
+      ],
+      "responses": [
+        "The distance from Play Ground to School of Engineering and Technology is approximately 156.72 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_it_center",
+      "patterns": [
+        "What is the distance from Play Ground to IT Center?",
+        "How far is IT Center from the Play Ground?",
+        "Distance between Play Ground and IT Center"
+      ],
+      "responses": [
+        "The distance from Play Ground to IT Center is approximately 181.27 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_school_of_arts_and_design",
+      "patterns": [
+        "What is the distance from Play Ground to School of Arts and Design?",
+        "How far is School of Arts and Design from the Play Ground?",
+        "Distance between Play Ground and School of Arts and Design"
+      ],
+      "responses": [
+        "The distance from Play Ground to School of Arts and Design is approximately 220.15 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_student_advisor_office",
+      "patterns": [
+        "What is the distance from Play Ground to student advisor office?",
+        "How far is student advisor office from the Play Ground?",
+        "Distance between Play Ground and student advisor office"
+      ],
+      "responses": [
+        "The distance from Play Ground to student advisor office is approximately 129.16 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_textile_commissioner_organization",
+      "patterns": [
+        "What is the distance from Play Ground to Textile commissioner organization?",
+        "How far is Textile commissioner organization from the Play Ground?",
+        "Distance between Play Ground and Textile commissioner organization"
+      ],
+      "responses": [
+        "The distance from Play Ground to Textile commissioner organization is approximately 185.19 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_dispensary",
+      "patterns": [
+        "What is the distance from Play Ground to Dispensary?",
+        "How far is Dispensary from the Play Ground?",
+        "Distance between Play Ground and Dispensary"
+      ],
+      "responses": [
+        "The distance from Play Ground to Dispensary is approximately 233.96 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_cricket_ground",
+      "patterns": [
+        "What is the distance from Play Ground to Cricket ground?",
+        "How far is Cricket ground from the Play Ground?",
+        "Distance between Play Ground and Cricket ground"
+      ],
+      "responses": [
+        "The distance from Play Ground to Cricket ground is approximately 250.59 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_girls_hostel",
+      "patterns": [
+        "What is the distance from Play Ground to Girls Hostel?",
+        "How far is Girls Hostel from the Play Ground?",
+        "Distance between Play Ground and Girls Hostel"
+      ],
+      "responses": [
+        "The distance from Play Ground to Girls Hostel is approximately 361.41 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_females_faculty_hostel_ntu",
+      "patterns": [
+        "What is the distance from Play Ground to Females faculty hostel NTU?",
+        "How far is Females faculty hostel NTU from the Play Ground?",
+        "Distance between Play Ground and Females faculty hostel NTU"
+      ],
+      "responses": [
+        "The distance from Play Ground to Females faculty hostel NTU is approximately 324.48 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_masjid",
+      "patterns": [
+        "What is the distance from Play Ground to Masjid?",
+        "How far is Masjid from the Play Ground?",
+        "Distance between Play Ground and Masjid"
+      ],
+      "responses": [
+        "The distance from Play Ground to Masjid is approximately 216.83 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_faisalabad_business_school_fbs",
+      "patterns": [
+        "What is the distance from Play Ground to Faisalabad business school (FBS)?",
+        "How far is Faisalabad business school (FBS) from the Play Ground?",
+        "Distance between Play Ground and Faisalabad business school (FBS)"
+      ],
+      "responses": [
+        "The distance from Play Ground to Faisalabad business school (FBS) is approximately 194.02 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_new_boys_hostel",
+      "patterns": [
+        "What is the distance from Play Ground to New Boys Hostel?",
+        "How far is New Boys Hostel from the Play Ground?",
+        "Distance between Play Ground and New Boys Hostel"
+      ],
+      "responses": [
+        "The distance from Play Ground to New Boys Hostel is approximately 243.23 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_soccer_ground",
+      "patterns": [
+        "What is the distance from Play Ground to Soccer ground?",
+        "How far is Soccer ground from the Play Ground?",
+        "Distance between Play Ground and Soccer ground"
+      ],
+      "responses": [
+        "The distance from Play Ground to Soccer ground is approximately 299.79 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_badminton_ground",
+      "patterns": [
+        "What is the distance from Play Ground to Badminton Ground?",
+        "How far is Badminton Ground from the Play Ground?",
+        "Distance between Play Ground and Badminton Ground"
+      ],
+      "responses": [
+        "The distance from Play Ground to Badminton Ground is approximately 329.67 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_old_boys_hostel",
+      "patterns": [
+        "What is the distance from Play Ground to Old Boys Hostel?",
+        "How far is Old Boys Hostel from the Play Ground?",
+        "Distance between Play Ground and Old Boys Hostel"
+      ],
+      "responses": [
+        "The distance from Play Ground to Old Boys Hostel is approximately 367.33 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_hockey_ground",
+      "patterns": [
+        "What is the distance from Play Ground to Hockey Ground?",
+        "How far is Hockey Ground from the Play Ground?",
+        "Distance between Play Ground and Hockey Ground"
+      ],
+      "responses": [
+        "The distance from Play Ground to Hockey Ground is approximately 133.68 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_cafeteria",
+      "patterns": [
+        "What is the distance from Play Ground to Cafeteria?",
+        "How far is Cafeteria from the Play Ground?",
+        "Distance between Play Ground and Cafeteria"
+      ],
+      "responses": [
+        "The distance from Play Ground to Cafeteria is approximately 175.79 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_knowtex_solution",
+      "patterns": [
+        "What is the distance from Play Ground to KnowTex Solution?",
+        "How far is KnowTex Solution from the Play Ground?",
+        "Distance between Play Ground and KnowTex Solution"
+      ],
+      "responses": [
+        "The distance from Play Ground to KnowTex Solution is approximately 43.57 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_ntu_reserach_centre",
+      "patterns": [
+        "What is the distance from Play Ground to NTU Reserach centre?",
+        "How far is NTU Reserach centre from the Play Ground?",
+        "Distance between Play Ground and NTU Reserach centre"
+      ],
+      "responses": [
+        "The distance from Play Ground to NTU Reserach centre is approximately 37.55 meters."
+      ]
+    },
+    {
+      "tag": "distance_playground_to_open_gym",
+      "patterns": [
+        "What is the distance from Play Ground to Open Gym?",
+        "How far is Open Gym from the Play Ground?",
+        "Distance between Play Ground and Open Gym"
+      ],
+      "responses": [
+        "The distance from Play Ground to Open Gym is approximately 237.48 meters."
+      ]
+    },
+    {
+      "tag": "GetDistanceBetweenParkingAndLibrary",
+      "patterns": [
+        "What is the distance from Parking to Library?",
+        "How far is the Parking from the Library?",
+        "Tell me the distance between Parking and Library",
+        "Distance from Parking to Library?",
+        "What is the distance from Parking to the Library?"
+      ],
+      "responses": [
+        "The distance from Parking to the Library is 0.122 km.",
+        "Parking is 0.122 km away from the Library.",
+        "It is 0.122 km from Parking to the Library."
+      ]
+    },
+    {
+      "tag": "GetDistanceBetweenParkingAndRectorOffice",
+      "patterns": [
+        "How far is the Parking from Rector Office?",
+        "Distance from Parking to Rector Office?",
+        "Tell me the distance between Parking and Rector Office.",
+        "What is the distance from Parking to Rector Office?"
+      ],
+      "responses": [
+        "The distance from Parking to the Rector Office is 0.170 km.",
+        "Parking is 0.170 km away from the Rector Office.",
+        "It is 0.170 km from Parking to the Rector Office."
+      ]
+    },
+    {
+      "tag": "GetDistanceBetweenParkingAndCafeteria",
+      "patterns": [
+        "How far is the Parking from Cafeteria?",
+        "What is the distance from Parking to Cafeteria?",
+        "Tell me the distance between Parking and Cafeteria.",
+        "Distance from Parking to Cafeteria?"
+      ],
+      "responses": [
+        "The distance from Parking to the Cafeteria is 0.346 km.",
+        "Parking is 0.346 km away from the Cafeteria.",
+        "It is 0.346 km from Parking to the Cafeteria."
+      ]
+    },
+    {
+      "tag": "GetDistanceBetweenParkingAndITCenter",
+      "patterns": [
+        "How far is the Parking from IT Center?",
+        "What is the distance from Parking to IT Center?",
+        "Tell me the distance between Parking and IT Center.",
+        "Distance from Parking to IT Center?"
+      ],
+      "responses": [
+        "The distance from Parking to the IT Center is 0.180 km.",
+        "Parking is 0.180 km away from the IT Center.",
+        "It is 0.180 km from Parking to the IT Center."
+      ]
+    },
+    {
+      "tag": "GetDistanceBetweenParkingAndGirlsHostel",
+      "patterns": [
+        "How far is the Parking from Girls Hostel?",
+        "Distance from Parking to Girls Hostel?",
+        "What is the distance from Parking to Girls Hostel?",
+        "Tell me the distance between Parking and Girls Hostel."
+      ],
+      "responses": [
+        "The distance from Parking to the Girls Hostel is 0.462 km.",
+        "Parking is 0.462 km away from the Girls Hostel.",
+        "It is 0.462 km from Parking to the Girls Hostel."
+      ]
+    },
+    {
+      "tag": "GetDistanceBetweenParkingAndSoccerGround",
+      "patterns": [
+        "What is the distance from Parking to Soccer Ground?",
+        "How far is the Parking from Soccer Ground?",
+        "Distance from Parking to Soccer Ground?",
+        "Tell me the distance between Parking and Soccer Ground."
+      ],
+      "responses": [
+        "The distance from Parking to the Soccer Ground is 0.252 km.",
+        "Parking is 0.252 km away from the Soccer Ground.",
+        "It is 0.252 km from Parking to the Soccer Ground."
+      ]
+    },
+    {
+      "tag": "GetDistanceBetweenParkingAndCricketGround",
+      "patterns": [
+        "What is the distance from Parking to Cricket Ground?",
+        "How far is the Parking from Cricket Ground?",
+        "Distance from Parking to Cricket Ground?",
+        "Tell me the distance between Parking and Cricket Ground."
+      ],
+      "responses": [
+        "The distance from Parking to the Cricket Ground is 0.337 km.",
+        "Parking is 0.337 km away from the Cricket Ground.",
+        "It is 0.337 km from Parking to the Cricket Ground."
+      ]
+    },
+    {
+      "tag": "GetDistanceBetweenParkingAndPlayGround",
+      "patterns": [
+        "How far is the Parking from Play Ground?",
+        "What is the distance from Parking to Play Ground?",
+        "Tell me the distance between Parking and Play Ground.",
+        "Distance from Parking to Play Ground?"
+      ],
+      "responses": [
+        "The distance from Parking to the Play Ground is 0.108 km.",
+        "Parking is 0.108 km away from the Play Ground.",
+        "It is 0.108 km from Parking to the Play Ground."
+      ]
+    },
+    {
+      "tag": "GetDistanceBetweenParkingAndUniversityAuditorium",
+      "patterns": [
+        "How far is the Parking from University Auditorium?",
+        "What is the distance from Parking to University Auditorium?",
+        "Tell me the distance between Parking and University Auditorium.",
+        "Distance from Parking to University Auditorium?"
+      ],
+      "responses": [
+        "The distance from Parking to the University Auditorium is 0.175 km.",
+        "Parking is 0.175 km away from the University Auditorium.",
+        "It is 0.175 km from Parking to the University Auditorium."
+      ]
+    },
+    {
+      "tag": "GetDistanceBetweenParkingAndCECA",
+      "patterns": [
+        "What is the distance from Parking to CECA?",
+        "How far is the Parking from CECA?",
+        "Tell me the distance between Parking and CECA.",
+        "Distance from Parking to CECA?"
+      ],
+      "responses": [
+        "The distance from Parking to CECA is 0.201 km.",
+        "Parking is 0.201 km away from CECA.",
+        "It is 0.201 km from Parking to CECA."
+      ]
+    }
+  ]
+}

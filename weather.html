@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Live Weather App</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: #003366;
+      transition: background 0.5s ease-in-out;
+    }
+
+    .weather-container {
+      width: 350px;
+      padding: 25px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 15px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      color: #003366;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #002244;
+    }
+
+    .weather-icon {
+      font-size: 60px;
+      margin: 10px 0;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .weather-info {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+
+    .temperature {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .refresh-btn {
+      background: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .refresh-btn:hover {
+      background: #0056b3;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="weather-container">
+    <h1>🌍 Live Weather of NTU</h1>
+    <div class="weather-icon" id="weather-icon">⛅</div>
+    <p class="weather-info" id="condition">Condition: Loading...</p>
+    <p class="temperature" id="temperature">🌡️ Temperature: Loading...</p>
+    <p class="weather-info" id="feels-like"></p>
+    <p class="weather-info" id="temp-min"></p>
+    <p class="weather-info" id="temp-max"></p>
+    <p class="weather-info" id="pressure"></p>
+    <p class="weather-info" id="humidity"></p>
+    <button class="refresh-btn" onclick="getWeather()">🔄 Refresh</button>
+  </div>
+
+  <script>
+    const API_KEY = "3d81d59f03b57183f1cd3147f272e694";
+    const LAT = 31.46893126345636;
+    const LON = 73.14703419206762;
+    const BASE_URL = `https://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&appid=${API_KEY}&units=metric`;
+
+    async function getWeather() {
+      try {
+        const response = await fetch(BASE_URL);
+        const data = await response.json();
+
+        if (data.cod === 200) {
+          document.getElementById("condition").innerHTML = `🌤️ Condition: ${data.weather[0].description}`;
+          document.getElementById("temperature").innerHTML = `🌡️ Temperature: ${data.main.temp}°C`;
+          document.getElementById("feels-like").innerHTML = `🤗 Feels Like: ${data.main.feels_like}°C`;
+          document.getElementById("temp-min").innerHTML = `📉 Min: ${data.main.temp_min}°C`;
+          document.getElementById("temp-max").innerHTML = `📈 Max: ${data.main.temp_max}°C`;
+          document.getElementById("pressure").innerHTML = `🎈 Pressure: ${data.main.pressure} hPa`;
+          document.getElementById("humidity").innerHTML = `💧 Humidity: ${data.main.humidity}%`;
+
+          const weatherIcon = document.getElementById("weather-icon");
+          const body = document.body;
+          const condition = data.weather[0].main.toLowerCase();
+
+          if (condition.includes("cloud")) {
+            weatherIcon.innerHTML = "☁️";
+            body.style.background = "linear-gradient(to right, #83a4d4, #b6fbff)";
+          } else if (condition.includes("rain")) {
+            weatherIcon.innerHTML = "🌧️";
+            body.style.background = "linear-gradient(to right, #4b79a1, #283e51)";
+          } else if (condition.includes("clear")) {
+            weatherIcon.innerHTML = "☀️";
+            body.style.background = "linear-gradient(to right, #56ccf2, #2f80ed)";
+          } else if (condition.includes("snow")) {
+            weatherIcon.innerHTML = "❄️";
+            body.style.background = "linear-gradient(to right, #e0eafc, #cfdef3)";
+          } else {
+            weatherIcon.innerHTML = "🌤️";
+            body.style.background = "linear-gradient(to right, #2193b0, #6dd5ed)";
+          }
+        } else {
+          document.getElementById("temperature").innerHTML = "Error fetching weather data.";
+        }
+      } catch (error) {
+        document.getElementById("temperature").innerHTML = "Network Error.";
+      }
+    }
+
+    getWeather();
+  </script>
+</body>
+</html>
